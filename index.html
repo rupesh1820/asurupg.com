@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Asurupg</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: assistant, -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+        box-sizing: border-box;
+    }
+    header{
+        display: flex;
+        height: 80px;
+        background-color:rgb(218, 173, 94);
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #776969;
+    }
+    .myntra_logo{
+        height: 50px;
+        width: 53px;
+        
+    }
+    .logo_container{
+        margin-left: 4%;
+    }
+    .action_bar{
+        margin-right: 4%;
+    }
+    .nav_bar{
+        display: flex;
+        min-width: 600px;
+        justify-content: space-evenly;
+    
+    }
+    .nav_bar a{
+        font-size: 14px;
+        letter-spacing: 3px;
+        color: #282c3f;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 28px 0;
+        border-bottom:4px solid rgb(218, 173, 94)
+    }
+    .nav_bar a:hover {
+        border-bottom: 2px solid red;
+    }
+    .nav_bar a sup{
+        color: #ff3f6c;
+        font-size: 10px;
+    }
+    .search_bar{
+        height: 40px;
+        min-width: 350px;
+        width: 30%;
+        display: flex;
+        align-items: center;
+    
+    
+    }
+    .search_icon{
+        box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px;
+    }
+    .search_input{
+        color: #696e79;
+        background-color: #f5f5f6;
+        flex-grow:1;
+        height: 40px;
+        border-radius: 0 4px 0 4px;
+        border: 0;
+    
+        
+    
+         
+    }
+    .action_bar{
+        display: flex;
+        min-width: 200px;
+        justify-content: space-evenly;
+    }
+    .action_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*main section*/
+    .banner_container {
+        margin: 20px 0;
+        width: 200px;
+    }
+    .image_banner {
+        width:100%;
+    }
+    .category_container {
+        text-transform: uppercase;
+        color: #3e4152;
+        margin: 50px 0 10px 30px;
+        max-height: 5em;
+        font-weight: 700;
+    }
+    .category_item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    
+    }
+    .offer_Item {
+        width: 200px;
+    
+    }
+    .footer_container {
+        display: flex;
+        padding: 30px 0px 40px 0px;
+        background: #FAFBFC; 
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .footer_column {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_column a {
+        color: #696b79;
+    
+        font-size: 15px;
+        text-decoration: none;
+        padding-bottom: 6px;
+    }
+    .footer_column h3{
+    
+        color: #282c3f;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .copyright {
+        color: #696b79;
+        text-align: end;
+        padding: 15px;
+    }
+    .rupesh {
+        height: 85%;
+        width: 50%;
+        border-radius: 4px;
+        align-items: center;
+    }
+    .created {
+        text-transform: uppercase;
+        color: #3e4152;
+        margin: 50px 0 10px 30px;
+        max-height: 5em;
+        font-weight: 700;
+    }
+    }
+    </style>
+</head>
+<body>
+    <header>
+
+        <div class="logo_container">
+            <a href="#"> <img class="myntra_logo" src="logo asur.png" alt="Myntra home"></a>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+            <script src="http://kit.fontawesome.com/785a1ba9ed.js" crossorigin="anonymous"></script>
+        </div>
+        <nav class="nav_bar">
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Home & living</a>
+            <a href="#">Beauty</a>
+            <a href="#">Studio<sup>NEW</sup></a>
+        </nav>
+        <div class="search_bar">
+            <span class="material-symbols-outlined search_icon">
+                search
+                </span>
+                <input class="search_input" placeholder="search for product, brands and more">
+        </div>
+        <div class="action_bar">
+            <div class="action_container">
+                <i class="fa-regular fa-user action_icon"></i>
+                <span class="action_name">profile</span>
+            </div>
+            <div class="action_container">
+                <i class="fa-regular fa-heart action_icon"></i>
+                <span class="action_name">wishlist</span>
+            </div>
+            <div class="action_container action_icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="action_name">bag</span>
+            </div>
+        </div>
+    
+    </header>
+    <main>
+        <div class="banner_container"><img class="banner_image" src="shoping.jpg" alt="main banner"> </div>
+        
+        <div class="category_container"><big>shop by category</big></div>
+        <div class="category_item">
+            <a href="#"> <img class="offer_item" src="offer1.png" alt="60% off"></a>
+            <a href="#"> <img class="offer_item" src="offer3.png" alt="40%-70% off"></a>
+            <a href="#"> <img class="offer_item" src="offer 10.png" alt="40%-70% off"></a>
+            <a href="#"> <img class="offer_item" src="offer 4.png " alt="40% off"></a>
+            <a href="#"> <img class="offer_item" src="offer 11.png" alt="50% off"></a>
+            <a href="#"> <img class="offer_item" src="offer 12.png" alt="45% off"></a>
+            <a href="#"> <img class="offer_item" src="offer 6.png" alt="35% off"></a>
+            <a href="#"> <img class="offer_item" src="offer 7.png" alt="60% off"></a>
+            <a href="#"> <img class="offer_item" src="offer 8.png" alt="55% off"></a>
+            <a href="#"> <img class="offer_item" src="offer5.png" alt="65% off"></a>
+            <a href="#"> <img class="offer_item" src="offer9.png" alt="70% off"></a>
+            
+        </div> 
+        <div class="category_container"><big>medal worthy brands to bag</big></div>
+        
+        <div class="category_item">
+            <a href="#"> <img class="offer_item" src="sale .jpg" alt="60% off"></a>
+            <a href="#"> <img class="offer_item" src="sale1.jpg" alt="60% off"></a>
+            <a href="#"> <img class="offer_item" src="sale2.jpg" alt="60% off"></a>
+            <a href="#"> <img class="offer_item" src="sale3.jpg" alt="60% off"></a>
+            <a href="#"> <img class="offer_item" src="sale4.jpg" alt="60% off"></a>
+            <a href="#"> <img class="offer_item" src="sale5.jpg" alt="60% off"></a>
+            <a href="#"> <img class="offer_item" src="sale 6.jpg" alt="60% off"></a>
+            <a href="#"> <img class="offer_item" src="sale 7.jpg" alt="60% off"></a>
+            <a href="#"> <img class="offer_item" src="sale8.jpg" alt="60% off"></a>
+            <a href="#"> <img class="offer_item" src="sale 9.jpg" alt="60% off"></a>
+           
+            <a href="#"> <img class="rupesh" src="ele.jpg" alt="60% off"></a>
+            <div class="created"> - created by rupesh</div>
+        
+    </main>
+    <footer>
+        <div class="footer_container">
+            <div class="footer_column">
+            <h3>ONLINE SHOIPING</h3>
+            
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Home & living</a>
+            <a href="#">Beauty</a>
+            <a href="#">Gift Card</a>
+            <a href="#"></a>
+            </div>
+
+        </div>
+        
+
+        <hr>
+        <div class="copyright">© 2024 www.myntra.com. All rights reserved.</div>
+    </footer>
+    
+</body>
+</html>
